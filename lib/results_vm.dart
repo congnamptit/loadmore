@@ -1,6 +1,5 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:loadmore/api.dart';
-import 'package:loadmore/results_model.dart';
 import 'package:loadmore/results_state.dart';
 
 final resultVM = StateNotifierProvider.autoDispose<ResultVM, ResultState>(

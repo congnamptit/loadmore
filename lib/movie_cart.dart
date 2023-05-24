@@ -18,7 +18,6 @@ class MovieCart extends HookWidget {
     return Stack(
       children: [
         Container(
-          height: 400,
           width: MediaQuery.of(context).size.width * 0.6,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),

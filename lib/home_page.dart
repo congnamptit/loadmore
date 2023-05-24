@@ -69,6 +69,7 @@ class HomePage extends HookConsumerWidget {
               crossAxisCount: 2,
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
+              childAspectRatio: (.7 / 1),
               children: List.generate(
                 result.length,
                 (index) {
